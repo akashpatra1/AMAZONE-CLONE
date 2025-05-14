@@ -1,0 +1,1041 @@
+*{
+    margin:0%;
+    font-family:Arial;
+    /* content ke santh border height count ho */
+    border:border-box;
+    
+
+     
+
+}
+.navbar{
+     height:60px;
+     color:white;
+     background-color:#0f1111;
+     display: flex;
+     align-items: center;
+     justify-content:space-evenly;
+
+}
+.navlogo{
+    height:50px;
+    width: 100px;
+    
+}
+.logo{
+     background-image:url("amazon_logo.png");
+     height:50px;
+     width:100%;
+     background-size:cover;
+}
+.border{
+    /* transparent means uska koi color nahi jo backgrounder ka  color hai uhihi  border color hoga  */
+    border:1.5px solid transparent; 
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.add{
+    color: #cccccc;
+    font-size:0.85rem;
+    margin-left:  15px;
+}
+.addd{
+color:#ffffff;
+font-size:  1rem;
+margin-left:3px;
+
+}
+.addicon{
+    display:flex;
+    align-items: center;
+}
+ .borderr{
+    
+    border:1.5px solid transparent; 
+}
+.borderr:hover{
+    border:1.5px solid white;
+} 
+.navsearch{
+    display: flex;
+    margin-left:10px;
+    width:850px;
+    height: 40px;
+    
+    
+}
+.searchicon{
+    background-color:#fab55c ;
+    display:flex;
+    align-items:center;
+    width:50px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    justify-content:center;
+    font-size:1.3rem;
+    color:#0f1111;
+} 
+.navsearch:hover{
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:3px solid orange;
+}
+/* .navsearch{
+    margin-left:35px;
+    width:620px;
+    height:40px; */
+
+.search{
+    width:53px;
+    border:none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    background-color:#E6E6E6;
+}
+.searchs{
+    width:747px;
+    color: #0f1111;
+    font-size:1rem;
+    border:none;  
+}
+.option{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    color: #0f1111;
+    text-align:center;
+    font-size:14px;
+    border:none;
+}
+.bharatflagg{
+    
+    background-image: url(bharat.png);
+    height:12px;
+    width:100%;
+    background-size:cover;
+    margin-top:3px;
+}
+.location{
+    height: 19px;
+    width: 54px;
+    margin-top :18px;;
+    display:flex;
+}
+.flags{
+    background:none;
+    color:#ffffff;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+}
+.flag{
+    display:flex;
+    color:#ffffff;
+}
+
+.accounticon{
+    display:flex;
+    
+}
+.arrowicon{
+    background:none;
+    color:#ffffff;
+    border:none;
+}
+.accountfont{
+    font-weight:bold;
+    font-size :15px;
+}
+span{
+    font-size:14px;
+}
+.carticon{
+    height: 39px;
+    width:39px;
+    align-items:center;
+}
+.cart{
+    display:flex;
+    justify-content: center;
+    font-size:1rem;
+    align-items:center;
+    width:50px;
+    margin-top:7px;
+    font-size:1.8rem;  
+}
+/* .fa-cart-shopping{
+    height: 39px;
+    width:39px; */
+
+.cartfont{
+    margin-top:10px;
+    margin-left:3px;
+    font-weight:bold;
+    font-size :15px;
+}
+.pannel{
+    background-color:#222f3d ;
+    font-size:12px;
+    height:40px;
+    display:flex;
+    color:#ffffff;
+    align-items: center;  
+}
+.menuicon{
+    display:flex;
+    margin-left:20px;
+}
+.paraoptions p{
+    display:inline;
+    font-size :15px;
+    margin-left:20px;
+}
+.allfont{
+    font-size:14px;
+}
+.menuicon{
+    height:14px;
+    width:17px;
+    align-items: center;
+    text-align: center;
+    font-size:1.2rem;
+}
+.alfont{
+    font-weight: bold;
+    font-size:1.2rem;
+    margin-left:5px;
+}
+.homeimage{
+    background-image:url(projecthomepage.jpg);
+    height: 310px; 
+    width:1500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    align-items: flex-end;  
+    
+    
+    
+}
+.homepageitem{
+    background-color:#f5f6f6;
+    height: 40px;
+    width:95.2%;
+    align-items:center; 
+    justify-content:center;
+    display:flex;
+    margin-bottom:20px; 
+    margin-right:32px;
+    
+    
+}
+.homepageitem a{
+    text-decoration:none;
+    color:#007185;
+}
+.mainpage{
+    background-color:#E6E6E6;
+}
+.shoppingitems{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    background-color: #E6E6E6;
+}
+.box{
+    height: 390px;
+    width:23.6%;
+    
+    justify-content: center;
+    padding:20px 0px 15px;
+    background-color:white;
+
+    
+    
+}
+.boximageo{
+    background-image:url(electronics.jpg);
+    height:300px;
+    margin-right:35px;  
+}
+.boxcontent h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.boxcontent p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+}
+.boxcontent{
+    margin-top:15px;
+}
+.boxone{
+    /* border:none; */
+}
+.boximaget{
+    background-image:url(child.jpg);
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+    
+    
+}
+.boxcontentt h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.boxcontentt p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+}
+.boxcontentt{
+    margin-top:15px;
+}
+.boxtwo{
+    /* border:none; */
+    
+}
+.boximageth{
+    background-image:url(school.jpg);
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+    
+    
+}
+.boxcontentth h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.boxcontentth p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+}
+.boxcontentth{
+    margin-top:15px;
+}
+.boxthree{
+    /* border:none; */
+}
+.boximagef{
+    background-image:url(plants.jpg);
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+    
+}
+.boxcontentf h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.boxcontentf p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+}
+.boxcontentf{
+    margin-top:15px;
+}
+.boxfour{
+    /* border:none; */
+}
+h2{
+    font-size:21px;
+}
+.secondbox{
+    padding:20px 0px 15px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    background-color: #E6E6E6;
+    
+}
+.boxo{
+    height: 390px;
+    width:23.6%;
+    justify-content: center;
+    background-color:white;
+    
+    padding:20px 0px 15px;
+    
+}
+
+.secondboximgone{
+    background-image:url(toy.jpg);
+    
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+}
+.sboxone{
+    
+}
+.secondboxitem{
+    margin-top:15px;
+}
+.secondboxitem h2{
+    margin-left :35px ;
+    margin-bottom:10px;
+}
+.secondboxitem p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+
+}
+.secondboximgtwo{
+    background-image:url(gym.jpg);
+    
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+}
+.sboxone{
+    
+}
+.secondboxitemt{
+    margin-top:15px;
+}
+.secondboxitemt h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.secondboxitemt p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+
+}
+.secondboximgthree{
+    background-image:url(girls.jpg);
+    
+    height:300px;
+    margin-right:35px;
+    margin-left:35px;
+}
+.sboxone{
+    
+}
+.secondboxitemth{
+    margin-top:15px;
+}
+.secondboxitemth h2{
+    margin-left:35px ;
+    margin-bottom:10px;
+}
+.secondboxitemth p{
+    margin-left:35px ;
+    color: #007185;
+    margin-top:20px;
+
+}
+.smallbox{
+    /* border:1px solid black; */
+    height:116px;
+    width:120px;
+}
+.square{
+    display:flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+}
+ .inlinebox{
+    
+    margin-bottom:30px;
+    margin-top:-5px;
+}
+ .inlineboxt{
+    margin-bottom:40px; 
+ }
+.bigbox{
+    margin-bottom:15px;
+    padding:17px 0px 15px;
+}
+.secondboximgfourone{
+    background-image:url(notebook.jpg);
+    height:116px;
+    width: 120px;
+    margin-right:20px; 
+    background-position:center;
+    
+}
+.secondboximgfourtwo{
+    background-image:url(acce.jpg);
+    height:116px;
+    width: 120px;
+    margin-right:20px; 
+    background-position:center;
+    
+}
+.secondboximgfourthree{
+    background-image:url(food.jpg);
+    height:116px;
+    width: 120px;
+     margin-right:20px;
+     background-position:center;
+    
+}
+.secondboximgfourfour{
+    background-image:url(pencil.jpg);
+    height:116px;
+    width: 120px;
+    background-position:center;
+    /* background-size: cover; */
+    
+}
+.boxo h2{
+    margin-left:35px ;
+    margin-top:15px;
+
+}
+.smallbox p{
+    color: #0f1111;
+    font-size:12px;
+    margin-bottom:5px;
+}
+.text{
+    display: flex;
+    margin-left:35px ;
+    margin-top:55px;
+    
+    color: #007185;
+    
+    
+    
+}
+.lineboxinside{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.linebox{
+    background-color: #ffffff;
+    height:250px;
+    width:97.9%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15.9px;
+
+   
+}
+.lineboxone{
+    background-image:url(first.jpg) ;
+    height:200px;
+    width:127px;
+    background-position:center;
+
+}
+.lineboxtwo{
+    background-image:url(second.jpg) ;
+    height:200px;
+    width:112px;
+    background-position:center;
+
+}
+.lineboxthree{
+    background-image:url(third.jpg) ;
+    height:200px;
+    width:135px;
+    background-position:center;
+
+}
+.lineboxfour{
+    background-image:url(four.jpg) ;
+    height:200px;
+    width:96px;
+    background-position:center;
+
+}
+.lineboxfive{
+    background-image:url(five.jpg) ;
+    height:200px;
+    width:190px;
+    background-position:center;
+
+}
+.lineboxsix{
+    background-image:url(six.jpg) ;
+    height:200px;
+    width:95.5px;
+    background-position:center;
+
+}
+.lineboxseven{
+    background-image:url(seven.jpg) ;
+    height:200px;
+    width:90px;
+    background-position:center;
+
+}
+.lineboxeight{
+    background-image:url(eight.jpg) ;
+    height:200px;
+    width:127px;
+    background-position:center;
+
+}
+.lineboxinside{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:9px;
+    
+}
+.texttwo{
+margin-left:52px;
+font-weight: bold;
+font-size:21px;
+
+}
+.lastbox{
+    height:555px;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    border:2px solid black;
+    
+}
+.lastboxin{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size:2rem;
+}
+.imageo{
+    display:flex;
+    justify-content:space-evenly;
+align-items: center;
+height:160px;
+width:160px;
+
+}
+.lastboxone{
+    background-image:url(lastpicone.jpg);
+    height:160px;
+    width:160px
+    
+}
+.lastboxtwo{
+    background-image:url(lastpictwo.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxthree{
+    background-image:url(lastpicthree.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxfour{
+    background-image:url(lastpicfour.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxfive{
+    background-image:url(lastpicfive.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxsix{
+    background-image:url(lastpicsix.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxseven{
+    background-image:url(lastpicseven.jpg);
+    height:160px;
+    width:160px
+}
+.lastboxfirst{
+    height:326px;
+    width:160px
+}
+.texo{
+    font-size:14px;
+    color:#007185;
+}
+.lastboxf{
+    display: flex;
+    color:#fab55c ;
+    font-size:14px;
+}
+.t{
+    color:#007185;
+}
+.lastboxfs{
+    display: flex; 
+}
+.lastboxftext{
+    font-size:17px;
+}
+.lastboxftexttwo{
+    font-size:10px;
+   
+}
+.secondboxtext{
+    margin-top:6px;
+}
+.lastboxendtext{
+    font-size:12px;
+}
+.lastboxsecond{
+    height:326px;
+    width:160px;
+}
+.lastboxthird{
+    height:326px;
+    width:160px;
+}
+.lastboxfourth{
+    height:326px;
+    width:160px;
+}
+.lastboxfifth{
+    height:326px;
+    width:160px;
+}
+.lastboxsixth{
+    height:326px;
+    width:160px;
+}
+.lastboxseventh{
+    height:326px;
+    width:160px;
+}
+.lastttt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3px;
+}
+.lastboxlast{
+    margin-top:100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.aaassskkk{
+    margin-right:100px;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px
+
+}
+.lastboxlasttext{
+    height:28px;
+    width: 230px;
+    border:2px solid #fab55c;
+    background:linear-gradient(to bottom,rgb(234, 209, 50) 20%,rgb(237, 183, 6)80%);
+    border-radius:4px;
+   display: flex;
+    
+}
+.lastboxlasttext {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.aaakkksss p{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-size:13px;
+      margin-bottom:3px;
+}
+.lastttt p{
+    font-size:11px;
+}
+.ra{
+    color:#007185;
+}
+.lastboxlasttext p{
+    font-weight:bold;
+}
+.footerbox{
+    height:49px;
+    width:100%;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f6f6;
+    
+}
+.footerboxtwo{
+    height:360px;
+    width:100%;
+    background-color: #222f3d;
+}
+.footerboxtwoitems{
+    display:flex;
+}
+.footeritemtext{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+    
+}
+.footeritemtexttwo{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+}
+.footeritemtextthree{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+}
+.footeritemtextfour{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+    
+}
+.trxt{
+    color:#dddddd;
+    font-size:14px;
+    height:250px;
+    width:137px;
+}
+.heading{
+    color: #ffffff;
+    font-size: 16px;
+}
+.firstitemfooterbox{
+    height:318px;
+    width:222px;
+}
+.seconditemfooterbox{
+    height:318px;
+    width:222px;
+}
+.threeitemfooterbox{
+    height:318px;
+    width:222px;
+}
+.fouritemfooterbox{
+    height:318px;
+    width:222px;
+    align-items: center;
+}
+.footerboxtwo{
+    display:flex;
+    justify-content: center;
+    /* justify-content:space-evenly; */
+    align-items: center;
+}
+.footeritemtext{
+    height:271px;
+    width:137px;
+}
+.lastfirstbox{
+    height:75px;
+    width:100%;
+    padding:10px 0px;
+    background-color: #222f3d;
+    border-top:0.1px solid rgba(255, 255, 255, 0.132) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.underlastboxicon{
+    height:68px;
+    width:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lastfirsticonone{
+ background-image:url("amazon_logo.png");
+    height:50px;
+width:150px;
+background-size:cover;
+align-items: center;
+
+    
+}
+.aasunibox{
+    display: flex;
+    height:34px;
+    width:440px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:20px;
+   
+}
+.lastfirticontwo{
+    display: flex;
+    color:#ffffff;
+    
+}
+.lastfirdticonthree{
+    display: flex;
+    color:#ffffff;
+}
+.lastfirdticonfour{
+    display: flex;
+    color:#ffffff;
+}
+.lastfirsticontwo{
+    height:33px;
+    width:133px;
+    border:0.2px solid rgba(255, 255, 255, 0.557) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3px;
+}
+.lastfirsticonthree{
+    height:33px;
+    width:133px;
+    border:0.2px solid rgba(255, 255, 255, 0.557) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3px;
+}
+.lastfirsticonfour{
+    height:33px;
+    width:133px;
+    border:0.8px solid rgba(255, 255, 255, 0.557) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3px;
+}
+.lastfirticontwo p{
+    font-size:13px;
+    color: #cccccc;
+    
+}
+.lastfirdticonthree p{
+    font-size:13px;
+    color: #cccccc;
+}
+.lastfirdticonfour p{
+    font-size:13px;
+    color: #cccccc;
+}
+.lastfirticontwo i{
+    margin-right:8px;
+    font-size: 13px;
+}
+
+
+.lastfirdticonthree i{
+    margin-right:8px;
+    font-size:13px;
+}
+.indianflag{
+    background-image: url("bharat.png");
+    height:12px;
+    width:100%;
+    background-size:cover;
+    margin-top:px;
+    background-color: #131a22;
+}
+.bharaticon{
+    height:12px;
+    width:18px;
+    background-color: #ffffff;
+}
+.bharaticon{
+    margin-right:8px;
+            font-size:13px;}
+.finalbox{
+    height:360px;
+    width:100%;
+    background-color: #131a22;
+    align-items: center;
+    
+    
+
+}       
+.finalboxone{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+  
+    
+}   
+.rakas{
+    color: #dddddd;
+
+
+}
+.rakas p{
+    font-size:12px;
+    color:#999999;
+}
+.rakas a{
+    font-size: 12px;
+}
+.finalboxsecond{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top:10px;
+    
+}
+.finalboxthird{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right:30px;
+    margin-left:-16px;
+    
+}
+.finalboxfourth{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right:10px;
+    margin-left:5px;
+    
+}
+.rashmithree{
+    margin-right:18px;
+
+}
+.boxunderbox{
+align-items: center;
+    
+width:100%;
+height:360px;
+
+}
+.lastfooterendbox{
+    height:78px;
+    width:100%;
+    background-color: #fab55c;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #dddddd;
+    background-color: #131a22;
+}
+.lastfootboxone{
+    margin-left:40px;
+    font-size: 12px;
+}
+.lastfooterendtextone{
+    font-size: 12px;
+    margin-left: 5px;
+}
